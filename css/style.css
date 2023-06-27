@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+body {
+  font-family: "Inter", sans-serif !important;
+}
 .card-style {
   background-color: #fafafa;
   color: #525050;
@@ -22,9 +26,8 @@
 #search-button {
   position: absolute;
   left: 225px;
-  top: 20px;
+  top: 18px;
   background-color: transparent;
   border: none;
   cursor: pointer;
 }
-
