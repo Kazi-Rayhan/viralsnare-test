@@ -1,0 +1,30 @@
+.card-style {
+  background-color: #fafafa;
+  color: #525050;
+  font-size: 12px;
+}
+.card-style:hover {
+  background-color: white;
+  border: 1px solid blue !important;
+  transition: 0.5s;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+.card-style .icon {
+  background-color: #f1f1f1;
+}
+.card-style .icon:hover {
+  background-color: #fafafa;
+}
+.border-right {
+  border-right: 1px solid black;
+  height: 32px;
+}
+#search-button {
+  position: absolute;
+  left: 225px;
+  top: 20px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
