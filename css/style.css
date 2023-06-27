@@ -32,3 +32,6 @@ body {
   border: none;
   cursor: pointer;
 }
+.page-link{
+  border-radius: 50%;
+}
