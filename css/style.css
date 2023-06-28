@@ -32,6 +32,9 @@ body {
   border: none;
   cursor: pointer;
 }
-.page-link{
+.page-link {
   border-radius: 50%;
+}
+.col-md-2 {
+  width: 16% !important;
 }
