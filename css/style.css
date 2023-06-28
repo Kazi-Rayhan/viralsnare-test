@@ -35,3 +35,22 @@ body {
 .page-link{
   border-radius: 50%;
 }
+
+
+.accordion-button::after{
+  /* margin-left: 10px !important; */
+  
+  text-align: center !important;
+}
+.accordion-button{
+  padding-left: 30px !important;
+ 
+}
+
+
+
+
+
+
+
+
