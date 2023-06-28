@@ -60,6 +60,8 @@ th {
 .pagination-size li a {
   font-size: 13px;
 }
-.accordion-header button {
+.accordion-header button,
+.accordion-header a,
+p {
   font-size: 13px;
 }
