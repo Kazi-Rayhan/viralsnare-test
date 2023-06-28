@@ -118,96 +118,88 @@
         </div>
         <div class="mt-5">
           <img src="img/icons/Group 1000004888.png" alt="" />
-
-          <div class="accordion accordion-flush" id="accordionFlushExample">
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button
-                  class="accordion-button collapsed fw-bold"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseOne"
-                  aria-expanded="false"
-                  aria-controls="flush-collapseOne"
-                >
-                  Submitted Videos
-                </button>
-              </h2>
-              <div
-                id="flush-collapseOne"
-                class="accordion-collapse collapse"
-                data-bs-parent="#accordionFlushExample"
-              >
-                <div class="">
-                  <div class="d-flex">
-                    <img
-                      src="img/icons/pending.png"
-                      class=""
-                      width="20"
-                      height="20"
-                      alt=""
-                    />
-                    <p>Pending</p>
-                  </div>
-                  <div class="d-flex">
-                    <img
-                      src="img/icons/qus.png"
-                      class=""
-                      width="20"
-                      height="20"
-                      alt=""
-                    />
-                    <p>Inquiring</p>
-                  </div>
-                  <div class="d-flex">
-                    <img
-                      src="img/icons/approve.png"
-                      width="20"
-                      height="20"
-                      alt=""
-                    />
-                    <p>Approved</p>
-                  </div>
-                  <div class="d-flex">
-                    <img
-                      src="img/icons/web.png"
-                      width="20"
-                      height="20"
-                      alt=""
-                    />
-                    <p>Website Only</p>
-                  </div>
-                  <div class="d-flex">
-                    <img
-                      src="img/icons/duplicate.png"
-                      width="20"
-                      height="20"
-                      alt=""
-                    />
-                    <p>Duplications</p>
-                  </div>
-                  <div class="d-flex">
-                    <img
-                      src="img/icons/reject.png"
-                      width="20"
-                      height="20"
-                      alt=""
-                    />
-                    <p>Rejected</p>
-                  </div>
-                  <div class="d-flex">
-                    <img
-                      src="img/icons/delete.png"
-                      width="20"
-                      height="20"
-                      alt=""
-                    />
-                    <p>Deleted</p>
-                  </div>
-                </div>
+          <p>
+            <a class="text-decoration-none fw-bold text-black" data-bs-toggle="collapse" href="#collapseSubmitedVideo"  role="button" aria-expanded="false" aria-controls="collapseSubmitedVideo" onclick="rotateSubmitVid()">
+              Submitted Videos  <i class="fa-solid fa-chevron-up" id="submit-video"></i>
+            </a>
+            
+          </p>
+          <div class="collapse" id="collapseSubmitedVideo">
+            <div class="ms-5">
+              <div class="d-flex">
+                <img
+                  src="img/icons/pending.png"
+                  class="me-3 mb-4"
+                  width="20"
+                  height="20"
+                  alt=""
+                />
+                <p class="text-primary">Pending</p>
+              </div>
+              <div class="d-flex">
+                <img
+                  src="img/icons/qus.png"
+                  class="me-3 mb-4"
+                  width="20"
+                  height="20"
+                  alt=""
+                />
+                <p>Inquiring</p>
+              </div>
+              <div class="d-flex">
+                <img
+                  src="img/icons/approve.png"
+                  class="me-3 mb-4"
+                  width="20"
+                  height="20"
+                  alt=""
+                />
+                <p>Approved</p>
+              </div>
+              <div class="d-flex">
+                <img
+                  src="img/icons/web.png"
+                  class="me-3 mb-4"
+                  width="20"
+                  height="20"
+                  alt=""
+                />
+                <p>Website Only</p>
+              </div>
+              <div class="d-flex">
+                <img
+                  src="img/icons/duplicate.png"
+                  class="me-3 mb-4"
+                  width="20"
+                  height="20"
+                  alt=""
+                />
+                <p>Duplications</p>
+              </div>
+              <div class="d-flex">
+                <img
+                  src="img/icons/reject.png"
+                  class="me-3 mb-4"
+                  width="20"
+                  height="20"
+                  alt=""
+                />
+                <p>Rejected</p>
+              </div>
+              <div class="d-flex">
+                <img
+                  src="img/icons/delete.png"
+                  class="me-3"
+                  width="20"
+                  height="20"
+                  alt=""
+                />
+                <p>Deleted</p>
               </div>
             </div>
           </div>
+
+        
         </div>
 
         <div class="mt-5">
@@ -219,91 +211,78 @@
               alt=""
             />
 
-            <div class="accordion accordion-flush" id="accordionFlushExample">
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button according-btn collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseOne">
-                    Cleared Videos
-                  </button>
-                </h2>
-                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                  <div class="accordion-body">
-                    <div class="mt-4">
-                      <a class="text-decoration-none text-black" href="">
-                        <img src="img/icons/released-video.png" class="" width="30" height="30"  alt="">
-                      <p class="fw-bold">Released Videos</p>
-                      </a>
-                    </div>
-                    <div class="mt-4">
-                      <a class="text-decoration-none text-black" href="">
-                        <img src="img/icons/partners.png" class="" alt="">
-                      <p class="fw-bold">Partners</p>
-                      </a>
-                    </div>
-                    <div class="mt-4">
-                      <a class="text-decoration-none text-black" href="">
-                        <img src="img/icons/members.png" alt="">
-                      <p class="fw-bold">Members</p>
-                      </a>
-                    </div>
-                    <div class="mt-4">
-                      <a class="text-decoration-none text-black" href="">
-                        <img src="img/icons/content-buyers.png" alt="">
-                      <p class="fw-bold">Content Buyers</p>
-                      </a>
-                    </div>
-                    <div class="mt-4">
-                      <a class="text-decoration-none text-black" href="">
-                        <img src="img/icons/managers.png" alt="">
-                      <p class="fw-bold">Managers</p>
-                      </a>
-                    </div>
-                    <div class="mt-4">
-                      <a class="text-decoration-none text-black" href="">
-                        <img src="img/icons/agents.png" alt="">
-                      <p class="fw-bold">QC Agents</p>
-                      </a>
-                    </div>
-                    <div class="mt-4">
-                      <a class="text-decoration-none text-black" href="">
-                        <img src="img/icons/copyright.png" alt="">
-                      <p class="fw-bold">Copywriters</p>
-                      </a>
-                    </div>
-                    <div class="mt-4">
-                      <a class="text-decoration-none text-black" href="">
-                        <img src="img/icons/editors.png" alt="">
-                      <p class="fw-bold">Editors</p>
-                      </a>
-                    </div>
-                    <div class="mt-4">
-                      <a class="text-decoration-none text-black" href="">
-                        <img src="img/icons/analytics.png" alt="">
-                      <p class="fw-bold">Analytics</p>
-                      </a>
-                    </div>
-                    <div class="mt-4">
-                      <a class="text-decoration-none text-black" href="">
-                        <img src="img/icons/notifications.png" alt="">
-                      <p class="fw-bold">Notifications</p>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            
 
 
             <!-- collapse -->
             <p>
-              <a data-bs-toggle="collapse" href="#collapseExample"  role="button" aria-expanded="false" aria-controls="collapseExample">
-                Link with href  <i class="fa-solid fa-chevron-up"></i>
+              <a class="text-decoration-none fw-bold text-black" data-bs-toggle="collapse" href="#collapseExample"  role="button" aria-expanded="false" aria-controls="collapseExample" onclick="rotateImage()">
+                Cleared Videos  <i class="fa-solid fa-chevron-up" id="image"></i>
               </a>
               
             </p>
             <div class="collapse" id="collapseExample">
-              <div class="card card-body">
-                Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+              <div class="">
+                <div class="mt-4">
+                  <a class="text-decoration-none text-black" href="">
+                    <img src="img/icons/released-video.png" class="" width="30" height="30"  alt="">
+                  <p class="fw-bold">Released Videos</p>
+                  </a>
+                </div>
+                <div class="mt-4">
+                  <a class="text-decoration-none text-black" href="">
+                    <img src="img/icons/partners.png" class="" alt="">
+                  <p class="fw-bold">Partners</p>
+                  </a>
+                </div>
+                <div class="mt-4">
+                  <a class="text-decoration-none text-black" href="">
+                    <img src="img/icons/members.png" alt="">
+                  <p class="fw-bold">Members</p>
+                  </a>
+                </div>
+                <div class="mt-4">
+                  <a class="text-decoration-none text-black" href="">
+                    <img src="img/icons/content-buyers.png" alt="">
+                  <p class="fw-bold">Content Buyers</p>
+                  </a>
+                </div>
+                <div class="mt-4">
+                  <a class="text-decoration-none text-black" href="">
+                    <img src="img/icons/managers.png" alt="">
+                  <p class="fw-bold">Managers</p>
+                  </a>
+                </div>
+                <div class="mt-4">
+                  <a class="text-decoration-none text-black" href="">
+                    <img src="img/icons/agents.png" alt="">
+                  <p class="fw-bold">QC Agents</p>
+                  </a>
+                </div>
+                <div class="mt-4">
+                  <a class="text-decoration-none text-black" href="">
+                    <img src="img/icons/copyright.png" alt="">
+                  <p class="fw-bold">Copywriters</p>
+                  </a>
+                </div>
+                <div class="mt-4">
+                  <a class="text-decoration-none text-black" href="">
+                    <img src="img/icons/editors.png" alt="">
+                  <p class="fw-bold">Editors</p>
+                  </a>
+                </div>
+                <div class="mt-4">
+                  <a class="text-decoration-none text-black" href="">
+                    <img src="img/icons/analytics.png" alt="">
+                  <p class="fw-bold">Analytics</p>
+                  </a>
+                </div>
+                <div class="mt-4">
+                  <a class="text-decoration-none text-black" href="">
+                    <img src="img/icons/notifications.png" alt="">
+                  <p class="fw-bold">Notifications</p>
+                  </a>
+                </div>
               </div>
             </div>
             <!-- collapse -->
@@ -312,40 +291,33 @@
 
         <div>
           <img src="img/icons/messages.png" alt="">
-
-          <div class="accordion accordion-flush" id="accordionFlushExample">
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseOne">
-                  My Messages
-                </button>
-              </h2>
-              <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">
-                  
-                </div>
-              </div>
+          <p>
+            <a class="text-decoration-none fw-bold text-black" data-bs-toggle="collapse" href="#collapseMessage"  role="button" aria-expanded="false" aria-controls="collapseMessage" onclick="rotateMessage()">
+              My Messages  <i class="fa-solid fa-chevron-up" id="message"></i>
+            </a>
+            
+          </p>
+          <div class="collapse" id="collapseMessage">
+            <div class="">
+              
             </div>
           </div>
         </div>       
 
         <div>
           <img src="img/icons/settings.png" alt="" />
-
-          <div class="accordion accordion-flush" id="accordionFlushExample">
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseOne">
-                  Settings
-                </button>
-              </h2>
-              <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">
-                  
-                </div>
-              </div>
+          <p>
+            <a class="text-decoration-none fw-bold text-black" data-bs-toggle="collapse" href="#collapseSetting"  role="button" aria-expanded="false" aria-controls="collapseSetting" onclick="rotateSetting()">
+              Settings  <i class="fa-solid fa-chevron-up" id="setting"></i>
+            </a>
+            
+          </p>
+          <div class="collapse" id="collapseSetting">
+            <div class="">
+              
             </div>
           </div>
+
         </div>  
 
         <div class="my-5">
