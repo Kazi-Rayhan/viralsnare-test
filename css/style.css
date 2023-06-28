@@ -38,3 +38,22 @@ body {
 .col-md-2 {
   width: 16% !important;
 }
+
+
+.accordion-button::after{
+  /* margin-left: 10px !important; */
+  
+  text-align: center !important;
+}
+.accordion-button{
+  padding-left: 30px !important;
+ 
+}
+
+
+
+
+
+
+
+
