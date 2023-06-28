@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body style="background-color: #fafafa">
-    <header class="p-3 mb-3 ">
+    <header class="p-3 mb-3">
       <div class="container-fluid">
         <div
           class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start"
@@ -33,7 +33,7 @@
           </a>
           <form
             class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3 d-flex align-items-center"
-            style="margin-left: 65px; width: 280px; height: 40px"
+            style="margin-left: 44px; width: 280px; height: 40px"
             role="search"
           >
             <input
@@ -109,183 +109,255 @@
         </div>
       </div>
     </header>
-    <div class="row mt-2 me-1">
+    <div class="row mt-2 me-1 justify-content-between">
       <!-- side-bar start -->
       <div class="col-md-2 shadow-sm text-center">
         <div class="">
-          <img src="img/icons/dashboard.png" alt="">
-          <p class="fw-bold">Dashboard</p>
+          <img src="img/icons/dashboard.png" alt="" />
+          <p class="fw-bold" style="font-size: 13px">Dashboard</p>
         </div>
         <div class="mt-5">
-          <img src="img/icons/Group 1000004888.png" alt="">
+          <img src="img/icons/Group 1000004888.png" alt="" />
 
           <div class="accordion accordion-flush" id="accordionFlushExample">
             <div class="accordion-item">
               <h2 class="accordion-header">
-                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                <button
+                  class="accordion-button collapsed fw-bold"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseOne"
+                >
                   Submitted Videos
                 </button>
               </h2>
-              <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div
+                id="flush-collapseOne"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample"
+              >
                 <div class="">
-                  <div class="d-flex ">
-                    <img src="img/icons/pending.png" class="" width="20" height="20" alt="">
+                  <div class="d-flex">
+                    <img
+                      src="img/icons/pending.png"
+                      class=""
+                      width="20"
+                      height="20"
+                      alt=""
+                    />
                     <p>Pending</p>
                   </div>
                   <div class="d-flex">
-                    <img src="img/icons/qus.png" class="" width="20" height="20" alt="">
+                    <img
+                      src="img/icons/qus.png"
+                      class=""
+                      width="20"
+                      height="20"
+                      alt=""
+                    />
                     <p>Inquiring</p>
                   </div>
                   <div class="d-flex">
-                    <img src="img/icons/approve.png" width="20" height="20" alt="">
+                    <img
+                      src="img/icons/approve.png"
+                      width="20"
+                      height="20"
+                      alt=""
+                    />
                     <p>Approved</p>
                   </div>
                   <div class="d-flex">
-                    <img src="img/icons/web.png" width="20" height="20" alt="">
+                    <img
+                      src="img/icons/web.png"
+                      width="20"
+                      height="20"
+                      alt=""
+                    />
                     <p>Website Only</p>
                   </div>
                   <div class="d-flex">
-                    <img src="img/icons/duplicate.png" width="20" height="20" alt="">
+                    <img
+                      src="img/icons/duplicate.png"
+                      width="20"
+                      height="20"
+                      alt=""
+                    />
                     <p>Duplications</p>
                   </div>
                   <div class="d-flex">
-                    <img src="img/icons/reject.png" width="20" height="20" alt="">
+                    <img
+                      src="img/icons/reject.png"
+                      width="20"
+                      height="20"
+                      alt=""
+                    />
                     <p>Rejected</p>
                   </div>
                   <div class="d-flex">
-                    <img src="img/icons/delete.png" width="20" height="20" alt="">
+                    <img
+                      src="img/icons/delete.png"
+                      width="20"
+                      height="20"
+                      alt=""
+                    />
                     <p>Deleted</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-
         </div>
 
         <div class="mt-5">
           <div>
-            <img src="img/icons/cleared-video.png" width="30" height="30" alt="">
+            <img
+              src="img/icons/cleared-video.png"
+              width="30"
+              height="30"
+              alt=""
+            />
+
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button according-btn collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Cleared Videos
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    <div class="mt-4">
+                      <a class="text-decoration-none text-black" href="">
+                        <img src="img/icons/released-video.png" class="" width="30" height="30"  alt="">
+                      <p class="fw-bold">Released Videos</p>
+                      </a>
+                    </div>
+                    <div class="mt-4">
+                      <a class="text-decoration-none text-black" href="">
+                        <img src="img/icons/partners.png" class="" alt="">
+                      <p class="fw-bold">Partners</p>
+                      </a>
+                    </div>
+                    <div class="mt-4">
+                      <a class="text-decoration-none text-black" href="">
+                        <img src="img/icons/members.png" alt="">
+                      <p class="fw-bold">Members</p>
+                      </a>
+                    </div>
+                    <div class="mt-4">
+                      <a class="text-decoration-none text-black" href="">
+                        <img src="img/icons/content-buyers.png" alt="">
+                      <p class="fw-bold">Content Buyers</p>
+                      </a>
+                    </div>
+                    <div class="mt-4">
+                      <a class="text-decoration-none text-black" href="">
+                        <img src="img/icons/managers.png" alt="">
+                      <p class="fw-bold">Managers</p>
+                      </a>
+                    </div>
+                    <div class="mt-4">
+                      <a class="text-decoration-none text-black" href="">
+                        <img src="img/icons/agents.png" alt="">
+                      <p class="fw-bold">QC Agents</p>
+                      </a>
+                    </div>
+                    <div class="mt-4">
+                      <a class="text-decoration-none text-black" href="">
+                        <img src="img/icons/copyright.png" alt="">
+                      <p class="fw-bold">Copywriters</p>
+                      </a>
+                    </div>
+                    <div class="mt-4">
+                      <a class="text-decoration-none text-black" href="">
+                        <img src="img/icons/editors.png" alt="">
+                      <p class="fw-bold">Editors</p>
+                      </a>
+                    </div>
+                    <div class="mt-4">
+                      <a class="text-decoration-none text-black" href="">
+                        <img src="img/icons/analytics.png" alt="">
+                      <p class="fw-bold">Analytics</p>
+                      </a>
+                    </div>
+                    <div class="mt-4">
+                      <a class="text-decoration-none text-black" href="">
+                        <img src="img/icons/notifications.png" alt="">
+                      <p class="fw-bold">Notifications</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
 
             <!-- collapse -->
             <p>
-              <a class="text-decoration-none text-black fw-bold" onclick="rotateImage()" data-bs-toggle="collapse" href="#collapseExample"  role="button" aria-expanded="false" aria-controls="collapseExample">
-                Cleared Videos  <i class="fa-solid fa-chevron-up" id="image"></i>
+              <a data-bs-toggle="collapse" href="#collapseExample"  role="button" aria-expanded="false" aria-controls="collapseExample">
+                Link with href  <i class="fa-solid fa-chevron-up"></i>
               </a>
               
             </p>
             <div class="collapse" id="collapseExample">
-              <div class="">
-                <div class="mt-4">
-                  <a class="text-decoration-none text-black" href="">
-                    <img src="img/icons/released-video.png" class="" width="30" height="30"  alt="">
-                  <p class="fw-bold">Released Videos</p>
-                  </a>
-                </div>
-                <div class="mt-4">
-                  <a class="text-decoration-none text-black" href="">
-                    <img src="img/icons/partners.png" class="" alt="">
-                  <p class="fw-bold">Partners</p>
-                  </a>
-                </div>
-                <div class="mt-4">
-                  <a class="text-decoration-none text-black" href="">
-                    <img src="img/icons/members.png" alt="">
-                  <p class="fw-bold">Members</p>
-                  </a>
-                </div>
-                <div class="mt-4">
-                  <a class="text-decoration-none text-black" href="">
-                    <img src="img/icons/content-buyers.png" alt="">
-                  <p class="fw-bold">Content Buyers</p>
-                  </a>
-                </div>
-                <div class="mt-4">
-                  <a class="text-decoration-none text-black" href="">
-                    <img src="img/icons/managers.png" alt="">
-                  <p class="fw-bold">Managers</p>
-                  </a>
-                </div>
-                <div class="mt-4">
-                  <a class="text-decoration-none text-black" href="">
-                    <img src="img/icons/agents.png" alt="">
-                  <p class="fw-bold">QC Agents</p>
-                  </a>
-                </div>
-                <div class="mt-4">
-                  <a class="text-decoration-none text-black" href="">
-                    <img src="img/icons/copyright.png" alt="">
-                  <p class="fw-bold">Copywriters</p>
-                  </a>
-                </div>
-                <div class="mt-4">
-                  <a class="text-decoration-none text-black" href="">
-                    <img src="img/icons/editors.png" alt="">
-                  <p class="fw-bold">Editors</p>
-                  </a>
-                </div>
-                <div class="mt-4">
-                  <a class="text-decoration-none text-black" href="">
-                    <img src="img/icons/analytics.png" alt="">
-                  <p class="fw-bold">Analytics</p>
-                  </a>
-                </div>
-                <div class="mt-4">
-                  <a class="text-decoration-none text-black" href="">
-                    <img src="img/icons/notifications.png" alt="">
-                  <p class="fw-bold">Notifications</p>
-                  </a>
-                </div>
+              <div class="card card-body">
+                Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
               </div>
             </div>
             <!-- collapse -->
-
-
           </div>
         </div>
 
         <div>
           <img src="img/icons/messages.png" alt="">
-          <p>
-            <a class="text-decoration-none text-black fw-bold" onclick="rotateImage()" data-bs-toggle="collapse" href="#collapseMessage"  role="button" aria-expanded="false" aria-controls="collapseMessage">
-              My Messages  <i class="fa-solid fa-chevron-up" id="image"></i>
-            </a>
-            
-          </p>
-          <div class="collapse" id="collapseMessage">
-            <div class="">
-             
+
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseOne">
+                  My Messages
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  
+                </div>
+              </div>
             </div>
           </div>
-
         </div>       
 
         <div>
-          <img src="img/icons/settings.png" alt="">
+          <img src="img/icons/settings.png" alt="" />
 
-          <p>
-            <a class="text-decoration-none text-black fw-bold" onclick="rotateImage()" data-bs-toggle="collapse" href="#collapseSetting"  role="button" aria-expanded="false" aria-controls="collapseSetting">
-              Settings  <i class="fa-solid fa-chevron-up" id="image"></i>
-            </a>
-            
-          </p>
-          <div class="collapse" id="collapseSetting">
-            <div class="">
-             
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Settings
+                </button>
+              </h2>
+              <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  
+                </div>
+              </div>
             </div>
           </div>
         </div>  
 
         <div class="my-5">
           <a class="text-decoration-none" href="">
-            <img src="img/icons/logout.png" alt="">
-          <p class="fw-bold">Logout</p>
+            <img src="img/icons/logout.png" alt="" />
+            <p class="fw-bold" style="font-size: 13px">Logout</p>
           </a>
         </div>
-
       </div>
       <!-- side-bar end -->
       <div class="col-md-10" style="border: none !important">
+        <!-- Widgets Start -->
         <div class="row justify-content-between card-body">
           <div
             class="card-style col-2 p-2 d-flex align-items-center border rounded"
@@ -302,7 +374,7 @@
             class="card-style col-auto p-2 d-flex align-items-center border rounded"
           >
             <div class="p-1 rounded-3 icon">
-              <img src="./img/icons/qus.png" alt="">
+              <img src="./img/icons/qus.png" alt="" />
             </div>
             <div class="ms-2">
               <span>Inquiring videos</span> <br />
@@ -313,7 +385,7 @@
             class="card-style col-auto p-2 d-flex align-items-center border rounded"
           >
             <div class="p-1 rounded-3 icon">
-              <img src="./img/icons/approve.png" alt="">
+              <img src="./img/icons/approve.png" alt="" />
             </div>
             <div class="ms-2">
               <span>Approved videos</span> <br />
@@ -324,7 +396,7 @@
             class="card-style col-auto p-2 d-flex align-items-center border rounded"
           >
             <div class="p-1 rounded-3 icon">
-              <img src="./img/icons/web.png" alt="">
+              <img src="./img/icons/web.png" alt="" />
             </div>
             <div class="ms-2">
               <span>Website only</span> <br />
@@ -335,7 +407,7 @@
             class="card-style col-auto p-2 d-flex align-items-center border rounded"
           >
             <div class="p-1 rounded-3 icon">
-              <img src="./img/icons/duplicate.png" alt="">
+              <img src="./img/icons/duplicate.png" alt="" />
             </div>
             <div class="ms-2">
               <span>Duplicated videos</span> <br />
@@ -346,7 +418,7 @@
             class="card-style col-auto p-2 d-flex align-items-center border rounded"
           >
             <div class="p-1 rounded-3 icon">
-              <img src="./img/icons/reject.png" alt="">
+              <img src="./img/icons/reject.png" alt="" />
             </div>
             <div class="ms-2">
               <span>Rejected videos</span> <br />
@@ -357,7 +429,7 @@
             class="card-style col-auto p-2 d-flex align-items-center border rounded"
           >
             <div class="p-1 rounded-3 icon">
-              <img src="./img/icons/delete.png" alt="">
+              <img src="./img/icons/delete.png" alt="" />
             </div>
             <div class="ms-2">
               <span>Deleted videos</span> <br />
@@ -365,208 +437,250 @@
             </div>
           </div>
         </div>
-
-         <!-- content -->
-      <div class="mt-5">
-        <div>
-          <div class="d-flex justify-content-between">
-            <div>
-              <span>Showing videos for</span> <span class="fw-bold text-primary">Today</span> <span class="text-muted">(April 23, 2023)</span>
+        <!-- Widgets end -->
+        <!-- content -->
+        <div class="mt-5">
+          <div>
+            <div class="d-flex justify-content-between font-size">
+              <div>
+                <span>Showing videos for</span>
+                <span class="fw-bold text-primary">Today</span>
+                <span class="text-muted">(April 23, 2023)</span>
+              </div>
+              <div class="">
+                <img class="me-3" src="img/icons/filter.png" alt="" />
+                <img src="img/icons/calender.png" alt="" />
+              </div>
             </div>
-            <div class="">
-              <img class="me-3" src="img/icons/filter.png" alt="">
-              <img src="img/icons/calender.png" alt="">
+            <div class="mt-4">
+              <table class="table">
+                <thead>
+                  <tr class="table-secondary rounded">
+                    <th scope="col">VSID</th>
+                    <th scope="col">Acquisitor</th>
+                    <th scope="col">Thumbnail</th>
+                    <th scope="col">Submitter Name</th>
+                    <th scope="col">Title</th>
+                    <th scope="col">Email Address</th>
+                    <th scope="col">Submission Date</th>
+                    <th scope="col">View</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td scope="row">13194</td>
+                    <td>Theodore</td>
+                    <td>
+                      <img src="img/thumbnail.jpg" width="80" alt="" />
+                    </td>
+                    <td>
+                      Boy Jumped with the Umbrella and the Wind Almost Sent Him
+                      Flying Too Far Away
+                    </td>
+                    <td>John Smith</td>
+                    <td>johnsmith@gmail.com</td>
+                    <td>September 26,  2019<br />at 05:45:23 AM UTC</td>
+                    <td>
+                      <a href="">
+                        <img src="img/icons/view.svg" alt="" />
+                      </a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td scope="row">13194</td>
+                    <td>Theodore</td>
+                    <td>
+                      <img src="img/thumbnail.jpg" width="80" alt="" />
+                    </td>
+                    <td>
+                      Boy Jumped with the Umbrella and the Wind Almost Sent Him
+                      Flying Too Far Away
+                    </td>
+                    <td>John Smith</td>
+                    <td>johnsmith@gmail.com</td>
+                    <td>September 26,  2019<br />at 05:45:23 AM UTC</td>
+                    <td>
+                      <a href="">
+                        <img src="img/icons/view.svg" alt="" />
+                      </a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td scope="row">13194</td>
+                    <td>Theodore</td>
+                    <td>
+                      <img src="img/thumbnail.jpg" width="80" alt="" />
+                    </td>
+                    <td>
+                      Boy Jumped with the Umbrella and the Wind Almost Sent Him
+                      Flying Too Far Away
+                    </td>
+                    <td>John Smith</td>
+                    <td>johnsmith@gmail.com</td>
+                    <td>September 26,  2019<br />at 05:45:23 AM UTC</td>
+                    <td>
+                      <a href="">
+                        <img src="img/icons/view.svg" alt="" />
+                      </a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td scope="row">13194</td>
+                    <td>Theodore</td>
+                    <td>
+                      <img src="img/thumbnail.jpg" width="80" alt="" />
+                    </td>
+                    <td>
+                      Boy Jumped with the Umbrella and the Wind Almost Sent Him
+                      Flying Too Far Away
+                    </td>
+                    <td>John Smith</td>
+                    <td>johnsmith@gmail.com</td>
+                    <td>September 26,  2019<br />at 05:45:23 AM UTC</td>
+                    <td>
+                      <a href="">
+                        <img src="img/icons/view.svg" alt="" />
+                      </a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td scope="row">13194</td>
+                    <td>Theodore</td>
+                    <td>
+                      <img src="img/thumbnail.jpg" width="80" alt="" />
+                    </td>
+                    <td>
+                      Boy Jumped with the Umbrella and the Wind Almost Sent Him
+                      Flying Too Far Away
+                    </td>
+                    <td>John Smith</td>
+                    <td>johnsmith@gmail.com</td>
+                    <td>September 26,  2019<br />at 05:45:23 AM UTC</td>
+                    <td>
+                      <a href="">
+                        <img src="img/icons/view.svg" alt="" />
+                      </a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td scope="row">13194</td>
+                    <td>Theodore</td>
+                    <td>
+                      <img src="img/thumbnail.jpg" width="80" alt="" />
+                    </td>
+                    <td>
+                      Boy Jumped with the Umbrella and the Wind Almost Sent Him
+                      Flying Too Far Away
+                    </td>
+                    <td>John Smith</td>
+                    <td>johnsmith@gmail.com</td>
+                    <td>September 26,  2019<br />at 05:45:23 AM UTC</td>
+                    <td>
+                      <a href="">
+                        <img src="img/icons/view.svg" alt="" />
+                      </a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td scope="row">13194</td>
+                    <td>Theodore</td>
+                    <td>
+                      <img src="img/thumbnail.jpg" width="80" alt="" />
+                    </td>
+                    <td>
+                      Boy Jumped with the Umbrella and the Wind Almost Sent Him
+                      Flying Too Far Away
+                    </td>
+                    <td>John Smith</td>
+                    <td>johnsmith@gmail.com</td>
+                    <td>September 26,  2019<br />at 05:45:23 AM UTC</td>
+                    <td>
+                      <a href="">
+                        <img src="img/icons/view.svg" alt="" />
+                      </a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td scope="row">13194</td>
+                    <td>Theodore</td>
+                    <td>
+                      <img src="img/thumbnail.jpg" width="80" alt="" />
+                    </td>
+                    <td>
+                      Boy Jumped with the Umbrella and the Wind Almost Sent Him
+                      Flying Too Far Away
+                    </td>
+                    <td>John Smith</td>
+                    <td>johnsmith@gmail.com</td>
+                    <td>September 26,  2019<br />at 05:45:23 AM UTC</td>
+                    <td>
+                      <a href="">
+                        <img src="img/icons/view.svg" alt="" />
+                      </a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td scope="row">13194</td>
+                    <td>Theodore</td>
+                    <td>
+                      <img src="img/thumbnail.jpg" width="80" alt="" />
+                    </td>
+                    <td>
+                      Boy Jumped with the Umbrella and the Wind Almost Sent Him
+                      Flying Too Far Away
+                    </td>
+                    <td>John Smith</td>
+                    <td>johnsmith@gmail.com</td>
+                    <td>September 26, 2019 at 05:45:23 AM UTC</td>
+                    <td>
+                      <a href="">
+                        <img src="img/icons/view.svg" alt="" />
+                      </a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
-          </div>
-          <div class="mt-4">
-            <table class="table">
-              <thead>
-                <tr class="table-secondary rounded">
-                  <th scope="col">VSID</th>
-                  <th scope="col">Acquisitor</th>
-                  <th scope="col">Thumbnail</th>
-                  <th scope="col">Submitter Name</th>
-                  <th scope="col">Title</th>
-                  <th scope="col">Email Address</th>
-                  <th scope="col">Submission Date</th>
-                  <th scope="col">View</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td scope="row">13194</td>
-                  <td>Theodore</td>
-                  <td>
-                    <img src="img/thumbnail.jpg" width="80" alt="">
-                  </td>
-                  <td>Boy Jumped with the Umbrella and the Wind Almost Sent Him Flying Too Far Away</td>
-                  <td>John Smith</td>
-                  <td>johnsmith@gmail.com</td>
-                  <td>September 26, 2019 at 05:45:23 AM UTC</td>
-                  <td>
-                    <a href="">
-                      <img src="img/icons/view.svg" alt="">
-                    </a>
-                  </td>
-                </tr>
-                <tr>
-                  <td scope="row">13194</td>
-                  <td>Theodore</td>
-                  <td>
-                    <img src="img/thumbnail.jpg" width="80" alt="">
-                  </td>
-                  <td>Boy Jumped with the Umbrella and the Wind Almost Sent Him Flying Too Far Away</td>
-                  <td>John Smith</td>
-                  <td>johnsmith@gmail.com</td>
-                  <td>September 26, 2019 at 05:45:23 AM UTC</td>
-                  <td>
-                    <a href="">
-                      <img src="img/icons/view.svg" alt="">
-                    </a>
-                  </td>
-                </tr>
-                <tr>
-                  <td scope="row">13194</td>
-                  <td>Theodore</td>
-                  <td>
-                    <img src="img/thumbnail.jpg" width="80" alt="">
-                  </td>
-                  <td>Boy Jumped with the Umbrella and the Wind Almost Sent Him Flying Too Far Away</td>
-                  <td>John Smith</td>
-                  <td>johnsmith@gmail.com</td>
-                  <td>September 26, 2019 at 05:45:23 AM UTC</td>
-                  <td>
-                    <a href="">
-                      <img src="img/icons/view.svg" alt="">
-                    </a>
-                  </td>
-                </tr>
-                <tr>
-                  <td scope="row">13194</td>
-                  <td>Theodore</td>
-                  <td>
-                    <img src="img/thumbnail.jpg" width="80" alt="">
-                  </td>
-                  <td>Boy Jumped with the Umbrella and the Wind Almost Sent Him Flying Too Far Away</td>
-                  <td>John Smith</td>
-                  <td>johnsmith@gmail.com</td>
-                  <td>September 26, 2019 at 05:45:23 AM UTC</td>
-                  <td>
-                    <a href="">
-                      <img src="img/icons/view.svg" alt="">
-                    </a>
-                  </td>
-                </tr>
-                <tr>
-                  <td scope="row">13194</td>
-                  <td>Theodore</td>
-                  <td>
-                    <img src="img/thumbnail.jpg" width="80" alt="">
-                  </td>
-                  <td>Boy Jumped with the Umbrella and the Wind Almost Sent Him Flying Too Far Away</td>
-                  <td>John Smith</td>
-                  <td>johnsmith@gmail.com</td>
-                  <td>September 26, 2019 at 05:45:23 AM UTC</td>
-                  <td>
-                    <a href="">
-                      <img src="img/icons/view.svg" alt="">
-                    </a>
-                  </td>
-                </tr>
-                <tr>
-                  <td scope="row">13194</td>
-                  <td>Theodore</td>
-                  <td>
-                    <img src="img/thumbnail.jpg" width="80" alt="">
-                  </td>
-                  <td>Boy Jumped with the Umbrella and the Wind Almost Sent Him Flying Too Far Away</td>
-                  <td>John Smith</td>
-                  <td>johnsmith@gmail.com</td>
-                  <td>September 26, 2019 at 05:45:23 AM UTC</td>
-                  <td>
-                    <a href="">
-                      <img src="img/icons/view.svg" alt="">
-                    </a>
-                  </td>
-                </tr>
-                <tr>
-                  <td scope="row">13194</td>
-                  <td>Theodore</td>
-                  <td>
-                    <img src="img/thumbnail.jpg" width="80" alt="">
-                  </td>
-                  <td>Boy Jumped with the Umbrella and the Wind Almost Sent Him Flying Too Far Away</td>
-                  <td>John Smith</td>
-                  <td>johnsmith@gmail.com</td>
-                  <td>September 26, 2019 at 05:45:23 AM UTC</td>
-                  <td>
-                    <a href="">
-                      <img src="img/icons/view.svg" alt="">
-                    </a>
-                  </td>
-                </tr>
-                <tr>
-                  <td scope="row">13194</td>
-                  <td>Theodore</td>
-                  <td>
-                    <img src="img/thumbnail.jpg" width="80" alt="">
-                  </td>
-                  <td>Boy Jumped with the Umbrella and the Wind Almost Sent Him Flying Too Far Away</td>
-                  <td>John Smith</td>
-                  <td>johnsmith@gmail.com</td>
-                  <td>September 26, 2019 at 05:45:23 AM UTC</td>
-                  <td>
-                    <a href="">
-                      <img src="img/icons/view.svg" alt="">
-                    </a>
-                  </td>
-                </tr>
-                <tr>
-                  <td scope="row">13194</td>
-                  <td>Theodore</td>
-                  <td>
-                    <img src="img/thumbnail.jpg" width="80" alt="">
-                  </td>
-                  <td>Boy Jumped with the Umbrella and the Wind Almost Sent Him Flying Too Far Away</td>
-                  <td>John Smith</td>
-                  <td>johnsmith@gmail.com</td>
-                  <td>September 26, 2019 at 05:45:23 AM UTC</td>
-                  <td>
-                    <a href="">
-                      <img src="img/icons/view.svg" alt="">
-                    </a>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
           </div>
         </div>
+        <div class="mt-5">
+          <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-center pagination-size">
+              <li class="page-item disabled">
+                <a class="page-link rounded-pill">
+                  <i
+                    class="fa-solid fa-chevron-left"
+                    style="color: #7a7a7a"
+                  ></i>
+                  Previous
+                </a>
+              </li>
+              <li class="page-item">
+                <a class="page-link ms-3 text-muted" href="#">1</a>
+              </li>
+              <li class="page-item">
+                <a class="page-link ms-3 text-muted" href="#">2</a>
+              </li>
+              <li class="page-item">
+                <a class="page-link ms-3 text-muted" href="#">3</a>
+              </li>
+              <li class="page-item">
+                <a class="page-link ms-3 text-muted" href="#">..</a>
+              </li>
+              <li class="page-item">
+                <a class="page-link mx-3 text-muted" href="#">6</a>
+              </li>
+              <li class="page-item">
+                <a class="page-link text-black rounded-pill" href="#"
+                  >Next
+                  <i class="fa-solid fa-angle-right" style="color: #000000"></i
+                ></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <!-- content -->
       </div>
-      <div class="mt-5">
-        <nav aria-label="Page navigation example">
-          <ul class="pagination justify-content-center">
-            <li class="page-item disabled">
-              <a class="page-link rounded-pill"> 
-                <i class="fa-solid fa-chevron-left" style="color: #7a7a7a;"></i> Previous
-              </a>
-            </li>
-            <li class="page-item"><a class="page-link ms-3 text-muted" href="#">1</a></li>
-            <li class="page-item"><a class="page-link ms-3 text-muted" href="#">2</a></li>
-            <li class="page-item"><a class="page-link ms-3 text-muted" href="#">3</a></li>
-            <li class="page-item"><a class="page-link ms-3 text-muted" href="#">..</a></li>
-            <li class="page-item"><a class="page-link mx-3 text-muted" href="#">6</a></li>
-            <li class="page-item">
-              <a class="page-link text-black rounded-pill" href="#">Next <i class="fa-solid fa-angle-right" style="color: #000000;"></i></a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-      <!-- content -->
-
-      </div>
-
-     
-
     </div>
     <script src="js/main.js"></script>
     <script

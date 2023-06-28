@@ -26,31 +26,40 @@ body {
 }
 #search-button {
   position: absolute;
-  left: 225px;
+  left: 207px;
   top: 23px;
   background-color: transparent;
   border: none;
   cursor: pointer;
 }
-.page-link{
+.page-link {
   border-radius: 50%;
 }
+.col-md-2 {
+  width: 16% !important;
+}
 
-
-.accordion-button::after{
+.accordion-button::after {
   /* margin-left: 10px !important; */
-  
+
   text-align: center !important;
 }
-.accordion-button{
+.accordion-button {
   padding-left: 30px !important;
- 
 }
 
-
-
-
-
-
-
-
+.font-size {
+  font-size: 14px;
+}
+tr {
+  font-size: 12px;
+}
+th {
+  font-size: 13px;
+}
+.pagination-size li a {
+  font-size: 13px;
+}
+.accordion-header button {
+  font-size: 13px;
+}
