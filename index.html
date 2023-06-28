@@ -109,38 +109,48 @@
         </div>
       </div>
     </header>
-    <div class="row mt-2 me-1 justify-content-between">
+    <div class="row mt-2 mx-1 container-fluid justify-content-between">
       <!-- side-bar start -->
-      <div class="col-md-2 shadow-sm text-center">
+      <div class="col-md-2 pt-3 mb-2 shadow-sm text-center border-radius">
         <div class="">
-          <div class="mx-5" style="background-color: #F5F5F5;">
-            <img src="img/icons/dashboard.png" alt="" />
+          <div class="mx-5">
+            <img
+              src="img/icons/dashboard.png"
+              alt=""
+              style="
+                background-color: #f5f5f5;
+                padding: 8px;
+                border-radius: 12px;
+              "
+            />
           </div>
-          <p class="fw-bold" >Dashboard</p>
+          <p class="fw-bold">Dashboard</p>
         </div>
         <div class="mt-5">
           <img src="img/icons/Group 1000004888.png" alt="" />
           <p>
-            <a class="text-decoration-none fw-bold text-primary" data-bs-toggle="collapse" href="#collapseSubmitedVideo"  role="button" aria-expanded="false" aria-controls="collapseSubmitedVideo" onclick="rotateSubmitVid()">
-              Submitted Videos  <i class="fa-solid fa-chevron-up" id="submit-video"></i>
+            <a
+              class="text-decoration-none fw-bold text-primary"
+              data-bs-toggle="collapse"
+              href="#collapseSubmitedVideo"
+              role="button"
+              aria-expanded="false"
+              aria-controls="collapseSubmitedVideo"
+              onclick="rotateSubmitVid()"
+            >
+              Submitted Videos
+              <i class="fa-solid fa-chevron-up" id="submit-video"></i>
             </a>
-            
           </p>
           <div class="collapse" id="collapseSubmitedVideo">
             <div class="ms-5">
               <div class="d-flex">
-                <img
-                  src="img/icons/pending.png"
-                  class="me-3 mb-4"
-                  width="20"
-                  height="20"
-                  alt=""
-                />
+                <img src="img/icons/pendingg.png" class="me-3 mb-4" alt="" />
                 <p class="text-primary">Pending</p>
               </div>
               <div class="d-flex">
                 <img
-                  src="img/icons/qus.png"
+                  src="img/icons/inquir.png"
                   class="me-3 mb-4"
                   width="20"
                   height="20"
@@ -150,7 +160,7 @@
               </div>
               <div class="d-flex">
                 <img
-                  src="img/icons/approve.png"
+                  src="img/icons/appr.png"
                   class="me-3 mb-4"
                   width="20"
                   height="20"
@@ -160,7 +170,7 @@
               </div>
               <div class="d-flex">
                 <img
-                  src="img/icons/web.png"
+                  src="img/icons/webb.png"
                   class="me-3 mb-4"
                   width="20"
                   height="20"
@@ -170,7 +180,7 @@
               </div>
               <div class="d-flex">
                 <img
-                  src="img/icons/duplicate.png"
+                  src="img/icons/dupl.png"
                   class="me-3 mb-4"
                   width="20"
                   height="20"
@@ -180,7 +190,7 @@
               </div>
               <div class="d-flex">
                 <img
-                  src="img/icons/reject.png"
+                  src="img/icons/reje.png"
                   class="me-3 mb-4"
                   width="20"
                   height="20"
@@ -190,7 +200,7 @@
               </div>
               <div class="d-flex">
                 <img
-                  src="img/icons/delete.png"
+                  src="img/icons/trasgg.png"
                   class="me-3"
                   width="20"
                   height="20"
@@ -200,89 +210,92 @@
               </div>
             </div>
           </div>
-
-        
         </div>
 
         <div class="mt-5">
           <div>
-            <img
-              src="img/icons/cleared-video.png"
-              width="30"
-              height="30"
-              alt=""
-            />
-
-            
-
+            <img src="img/icons/clear.png" alt="" />
 
             <!-- collapse -->
             <p>
-              <a class="text-decoration-none fw-bold text-black" data-bs-toggle="collapse" href="#collapseExample"  role="button" aria-expanded="false" aria-controls="collapseExample" onclick="rotateImage()">
-                Cleared Videos  <i class="fa-solid fa-chevron-up" id="image"></i>
+              <a
+                class="text-decoration-none fw-bold text-black"
+                data-bs-toggle="collapse"
+                href="#collapseExample"
+                role="button"
+                aria-expanded="false"
+                aria-controls="collapseExample"
+                onclick="rotateImage()"
+              >
+                Cleared Videos <i class="fa-solid fa-chevron-up" id="image"></i>
               </a>
-              
             </p>
             <div class="collapse" id="collapseExample">
               <div class="">
                 <div class="mt-4">
                   <a class="text-decoration-none text-black" href="">
-                    <img src="img/icons/released-video.png" class="" width="30" height="30"  alt="">
-                  <p class="fw-bold">Released Videos</p>
+                    <img
+                      src="img/icons/release.png"
+                      class=""
+                      width="30"
+                      height="30"
+                      alt=""
+                    />
+                    <p class="fw-bold">Released Videos</p>
                   </a>
                 </div>
                 <div class="mt-4">
                   <a class="text-decoration-none text-black" href="">
-                    <img src="img/icons/partners.png" class="" alt="">
-                  <p class="fw-bold">Partners</p>
+                    <img src="img/icons/partners.png" class="" alt="" />
+                    <p class="fw-bold">Partners</p>
                   </a>
                 </div>
                 <div class="mt-4">
                   <a class="text-decoration-none text-black" href="">
-                    <img src="img/icons/members.png" alt="">
-                  <p class="fw-bold">Members</p>
+                    <img src="img/icons/members.png" alt="" />
+                    <p class="fw-bold">Members</p>
                   </a>
                 </div>
                 <div class="mt-4">
                   <a class="text-decoration-none text-black" href="">
-                    <img src="img/icons/content-buyers.png" alt="">
-                  <p class="fw-bold">Content Buyers</p>
+                    <img src="img/icons/content-buyers.png" alt="" />
+                    <p class="fw-bold">Content Buyers</p>
                   </a>
                 </div>
                 <div class="mt-4">
                   <a class="text-decoration-none text-black" href="">
-                    <img src="img/icons/managers.png" alt="">
-                  <p class="fw-bold">Managers</p>
+                    <img src="img/icons/managers.png" alt="" />
+                    <p class="fw-bold">Managers</p>
                   </a>
                 </div>
                 <div class="mt-4">
                   <a class="text-decoration-none text-black" href="">
-                    <img src="img/icons/agents.png" alt="">
-                  <p class="fw-bold">QC Agents</p>
+                    <img src="img/icons/agents.png" alt="" />
+                    <p class="fw-bold">QC Agents</p>
                   </a>
                 </div>
                 <div class="mt-4">
                   <a class="text-decoration-none text-black" href="">
-                    <img src="img/icons/copyright.png" alt="">
-                  <p class="fw-bold">Copywriters</p>
+                    <img src="img/icons/copyright.png" alt="" />
+                    <p class="fw-bold">Copywriters</p>
                   </a>
                 </div>
                 <div class="mt-4">
                   <a class="text-decoration-none text-black" href="">
-                    <img src="img/icons/editors.png" alt="">
-                  <p class="fw-bold">Editors</p>
+                    <img src="img/icons/editors.png" alt="" />
+                    <p class="fw-bold">Editors</p>
                   </a>
                 </div>
                 <div class="mt-4">
                   <a class="text-decoration-none text-black" href="">
-                    <img src="img/icons/analytics.png" alt="">
-                  <p class="fw-bold">Analytics</p>
+                    <img src="img/icons/analytics.png" alt="" />
+                    <p class="fw-bold">Analytics</p>
                   </a>
                 </div>
                 <div class="mt-4">
                   <a class="text-decoration-none text-black" href="">
-                    <img src="img/icons/notifications.png" alt="">
-                  <p class="fw-bold">Notifications</p>
+                    <img src="img/icons/notifications.png" alt="" />
+                    <p class="fw-bold">Notifications</p>
                   </a>
                 </div>
               </div>
@@ -292,40 +305,49 @@
         </div>
 
         <div>
-          <img src="img/icons/messages.png" alt="">
+          <img src="img/icons/messages.png" alt="" />
           <p>
-            <a class="text-decoration-none fw-bold text-black" data-bs-toggle="collapse" href="#collapseMessage"  role="button" aria-expanded="false" aria-controls="collapseMessage" onclick="rotateMessage()">
-              My Messages  <i class="fa-solid fa-chevron-up" id="message"></i>
+            <a
+              class="text-decoration-none fw-bold text-black"
+              data-bs-toggle="collapse"
+              href="#collapseMessage"
+              role="button"
+              aria-expanded="false"
+              aria-controls="collapseMessage"
+              onclick="rotateMessage()"
+            >
+              My Messages <i class="fa-solid fa-chevron-up" id="message"></i>
             </a>
-            
           </p>
           <div class="collapse" id="collapseMessage">
-            <div class="">
-              
-            </div>
+            <div class=""></div>
           </div>
-        </div>       
+        </div>
 
         <div>
           <img src="img/icons/settings.png" alt="" />
           <p>
-            <a class="text-decoration-none fw-bold text-black" data-bs-toggle="collapse" href="#collapseSetting"  role="button" aria-expanded="false" aria-controls="collapseSetting" onclick="rotateSetting()">
-              Settings  <i class="fa-solid fa-chevron-up" id="setting"></i>
+            <a
+              class="text-decoration-none fw-bold text-black"
+              data-bs-toggle="collapse"
+              href="#collapseSetting"
+              role="button"
+              aria-expanded="false"
+              aria-controls="collapseSetting"
+              onclick="rotateSetting()"
+            >
+              Settings <i class="fa-solid fa-chevron-up" id="setting"></i>
             </a>
-            
           </p>
           <div class="collapse" id="collapseSetting">
-            <div class="">
-              
-            </div>
+            <div class=""></div>
           </div>
-
-        </div>  
+        </div>
 
         <div class="my-5">
           <a class="text-decoration-none" href="">
             <img src="img/icons/logout.png" alt="" />
-            <p class="fw-bold" >Logout</p>
+            <p class="fw-bold">Logout</p>
           </a>
         </div>
       </div>
