@@ -10,6 +10,11 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Inter:wght@200;500;600&family=Nunito:wght@200;300;500;700&family=Poppins:wght@200;400;700&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css" />
 </head>
 
@@ -82,10 +87,10 @@
     </div> -->
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid row">
-        <div class="col-lg-2 d-flex w-md-100 justify-content-between ">
+      <div class="container-fluid">
+        <div class=" d-flex w-md-100 justify-content-between " style="width: 159px;">
           <a class="navbar-brand" href="#">
-            <img src="./img/logo.png" alt="" />
+            <img src="./img/logo.png" alt="" wid />
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -94,13 +99,10 @@
           </button>
         </div>
 
+        <div class="collapse navbar-collapse row justify-content-between px-0" id="navbarSupportedContent"
+          style="width: 100%;">
 
-
-
-
-        <div class="collapse navbar-collapse col-lg-9 row justify-content-between px-0" id="navbarSupportedContent">
-
-          <div class="col-lg-4">
+          <div class="col-lg-4 ms-3">
             <form class="" role="search">
               <div class="form-grp">
                 <input style="font-size: 12px; color: #b3b3b3; padding-left: 2.5rem;border:none" type="search"
@@ -174,7 +176,7 @@
       </div>
     </nav>
   </header>
-  <div class=" mt-2 me-1 container-fluid">
+  <div class=" mt-2 me-1 container-fluid aside">
     <div class="d-flex">
       <!-- side-bar start -->
       <div class="side-bar pt-3 mb-2 shadow-sm text-center bg-white border-radius">
@@ -186,7 +188,7 @@
             <p class="sidebar-title">Dashboard</p>
           </a>
         </div>
-        <div class="">
+        <div class="active-menu">
 
           <a class="text-decoration-none" data-bs-toggle="collapse" href="#collapseSubmitedVideo" role="button"
             aria-expanded="false" aria-controls="collapseSubmitedVideo" onclick="rotateSubmitVid()">
@@ -200,7 +202,7 @@
           </a>
 
           <div class="collapse" id="collapseSubmitedVideo">
-            <div class="sidebar-dropdowns">
+            <div class="sidebar-dropdowns mb-3">
               <a href="" class="d-flex text-decoration-none">
                 <div class="dropdown-icon sidebar-title-active-bg">
                   <i class="fas fa-history "></i>
@@ -247,112 +249,283 @@
           </div>
         </div>
 
-        <div class="mt-5">
+        <div class="side-menu">
           <div>
-            <img src="img/icons/clear.png" alt="" />
+            <div class="side-bar-icon">
+              <i class="far fa-play-circle" style="font-size: 27px;"></i>
+            </div>
 
             <!-- collapse -->
-            <p>
-              <a class="text-decoration-none fw-bold text-black" data-bs-toggle="collapse" href="#collapseExample"
-                role="button" aria-expanded="false" aria-controls="collapseExample" onclick="rotateImage()">
-                Cleared Videos <i class="fa-solid fa-chevron-up" id="image"></i>
-              </a>
-            </p>
+
+            <a class="text-decoration-none fw-bold text-black" data-bs-toggle="collapse" href="#collapseExample"
+              role="button" aria-expanded="false" aria-controls="collapseExample" onclick="rotateImage()">
+
+              <div class="d-flex align-items-center justify-content-center">
+                <p class="sidebar-title "> Cleared Videos </p>
+                <i class="fa-solid fa-chevron-up" id="image"></i>
+              </div>
+
+
+
+            </a>
+
             <div class="collapse" id="collapseExample">
-              <div class="">
-                <div class="mt-4">
-                  <a class="text-decoration-none text-black" href="">
-                    <img src="img/icons/release.png" class="" width="30" height="30" alt="" />
-                    <p class="fw-bold">Released Videos</p>
-                  </a>
-                </div>
-                <div class="mt-4">
-                  <a class="text-decoration-none text-black" href="">
-                    <img src="img/icons/partners.png" class="" alt="" />
-                    <p class="fw-bold">Partners</p>
-                  </a>
-                </div>
-                <div class="mt-4">
-                  <a class="text-decoration-none text-black" href="">
-                    <img src="img/icons/members.png" alt="" />
-                    <p class="fw-bold">Members</p>
-                  </a>
-                </div>
-                <div class="mt-4">
-                  <a class="text-decoration-none text-black" href="">
-                    <img src="img/icons/content-buyers.png" alt="" />
-                    <p class="fw-bold">Content Buyers</p>
-                  </a>
-                </div>
-                <div class="mt-4">
-                  <a class="text-decoration-none text-black" href="">
-                    <img src="img/icons/managers.png" alt="" />
-                    <p class="fw-bold">Managers</p>
-                  </a>
-                </div>
-                <div class="mt-4">
-                  <a class="text-decoration-none text-black" href="">
-                    <img src="img/icons/agents.png" alt="" />
-                    <p class="fw-bold">QC Agents</p>
-                  </a>
-                </div>
-                <div class="mt-4">
-                  <a class="text-decoration-none text-black" href="">
-                    <img src="img/icons/copyright.png" alt="" />
-                    <p class="fw-bold">Copywriters</p>
-                  </a>
-                </div>
-                <div class="mt-4">
-                  <a class="text-decoration-none text-black" href="">
-                    <img src="img/icons/editors.png" alt="" />
-                    <p class="fw-bold">Editors</p>
-                  </a>
-                </div>
-                <div class="mt-4">
-                  <a class="text-decoration-none text-black" href="">
-                    <img src="img/icons/analytics.png" alt="" />
-                    <p class="fw-bold">Analytics</p>
-                  </a>
-                </div>
-                <div class="mt-4">
-                  <a class="text-decoration-none text-black" href="">
-                    <img src="img/icons/notifications.png" alt="" />
-                    <p class="fw-bold">Notifications</p>
-                  </a>
-                </div>
+              <div class="sidebar-dropdowns mb-3">
+                <a href="" class="d-flex text-decoration-none">
+                  <div class="dropdown-icon sidebar-title-active-bg">
+                    <i class="fas fa-history "></i>
+                  </div>
+                  <p class="sidebar-dropdown-item sidebar-title-active">Pending</p>
+                </a>
+                <a href="" class="d-flex text-decoration-none">
+                  <div class="dropdown-icon">
+                    <i class="far fa-question-circle"></i>
+                  </div>
+                  <p class="sidebar-dropdown-item">Inquiring</p>
+                </a>
+                <a href="" class="d-flex text-decoration-none">
+                  <div class="dropdown-icon">
+                    <i class="far fa-check-circle"></i>
+                  </div>
+                  <p class="sidebar-dropdown-item">Approved</p>
+                </a>
+
               </div>
             </div>
             <!-- collapse -->
           </div>
         </div>
 
-        <div>
-          <img src="img/icons/messages.png" alt="" />
-          <p>
-            <a class="text-decoration-none fw-bold text-black" data-bs-toggle="collapse" href="#collapseMessage"
-              role="button" aria-expanded="false" aria-controls="collapseMessage" onclick="rotateMessage()">
-              My Messages <i class="fa-solid fa-chevron-up" id="message"></i>
+        <div class="side-menu">
+          <div>
+            <div class="side-bar-icon" style="position: relative;">
+              <i class="far fa-play-circle" style="font-size: 27px;"></i>
+              <i class="fas fa-times-circle" style="position: absolute; bottom:8px;right: 8px; font-size: 12px;"></i>
+            </div>
+            <a class="text-decoration-none fw-bold text-black" href="">
+
+              <div class="d-flex align-items-center justify-content-center">
+                <p class="sidebar-title "> Relased videos </p>
+
+              </div>
             </a>
-          </p>
-          <div class="collapse" id="collapseMessage">
-            <div class=""></div>
+          </div>
+        </div>
+        <div class="">
+          <div>
+            <div class="side-bar-icon">
+              <i class="fas fa-user-friends" style="font-size: 27px;"></i>
+
+            </div>
+            <a class="text-decoration-none fw-bold text-black" href="">
+
+              <div class="d-flex align-items-center justify-content-center">
+                <p class="sidebar-title "> Partners </p>
+
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="side-menu">
+          <div>
+            <div class="side-bar-icon">
+              <i class="fas fa-users" style="font-size: 27px;"></i>
+
+            </div>
+            <a class="text-decoration-none fw-bold text-black" href="">
+
+              <div class="d-flex align-items-center justify-content-center">
+                <p class="sidebar-title "> Members </p>
+
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="side-menu">
+          <div>
+            <img src="img/icons/buyers.svg" alt="">
+            <a class="text-decoration-none fw-bold text-black" href="">
+
+              <div class="d-flex align-items-center justify-content-center">
+                <p class="sidebar-title "> Content Buyers </p>
+
+              </div>
+            </a>
           </div>
         </div>
 
-        <div>
-          <img src="img/icons/settings.png" alt="" />
-          <p>
-            <a class="text-decoration-none fw-bold text-black" data-bs-toggle="collapse" href="#collapseSetting"
-              role="button" aria-expanded="false" aria-controls="collapseSetting" onclick="rotateSetting()">
-              Settings <i class="fa-solid fa-chevron-up" id="setting"></i>
+        <div class="side-menu">
+          <div>
+            <div class="side-bar-icon">
+              <i class="fas fa-users-cog" style="font-size: 27px;"></i>
+
+            </div>
+            <a class="text-decoration-none fw-bold text-black" href="">
+
+              <div class="d-flex align-items-center justify-content-center">
+                <p class="sidebar-title "> Managers </p>
+
+              </div>
             </a>
-          </p>
-          <div class="collapse" id="collapseSetting">
-            <div class=""></div>
+          </div>
+        </div>
+        <div class="side-menu">
+          <div>
+            <div class="side-bar-icon">
+              <i class="fas fa-award" style="font-size: 27px;"></i>
+
+            </div>
+            <a class="text-decoration-none fw-bold text-black" href="">
+
+              <div class="d-flex align-items-center justify-content-center">
+                <p class="sidebar-title "> QC Agents </p>
+
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="side-menu">
+          <div>
+            <div class="side-bar-icon">
+              <img src="img/icons/Frame.png" alt="">
+
+            </div>
+            <a class="text-decoration-none fw-bold text-black" href="">
+
+              <div class="d-flex align-items-center justify-content-center">
+                <p class="sidebar-title "> Editors </p>
+
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="side-menu">
+          <div>
+            <div class="side-bar-icon">
+              <i class="far fa-chart-bar" style="font-size: 27px;"></i>
+
+
+            </div>
+            <a class="text-decoration-none fw-bold text-black" href="">
+
+              <div class="d-flex align-items-center justify-content-center">
+                <p class="sidebar-title "> Analytics </p>
+
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="side-menu">
+          <div>
+            <div class="side-bar-icon">
+              <i class="far fa-bell" style="font-size: 27px;"></i>
+
+
+            </div>
+            <a class="text-decoration-none fw-bold text-black" href="">
+
+              <div class="d-flex align-items-center justify-content-center">
+                <p class="sidebar-title "> Notifications </p>
+
+              </div>
+            </a>
           </div>
         </div>
 
-        <div class="my-5">
+        <div class="side-menu">
+          <div>
+            <div class="side-bar-icon">
+              <i class="far fa-envelope" style="font-size: 27px;"></i>
+            </div>
+
+            <!-- collapse -->
+
+            <a class="text-decoration-none fw-bold text-black" data-bs-toggle="collapse" href="#collapseExample"
+              role="button" aria-expanded="false" aria-controls="collapseExample" onclick="rotateImage()">
+
+              <div class="d-flex align-items-center justify-content-center">
+                <p class="sidebar-title "> My Massages </p>
+                <i class="fa-solid fa-chevron-up" id="image"></i>
+              </div>
+
+
+
+            </a>
+
+            <div class="collapse" id="collapseExample">
+              <div class="sidebar-dropdowns mb-3">
+                <a href="" class="d-flex text-decoration-none">
+                  <div class="dropdown-icon sidebar-title-active-bg">
+                    <i class="fas fa-history "></i>
+                  </div>
+                  <p class="sidebar-dropdown-item sidebar-title-active">Pending</p>
+                </a>
+                <a href="" class="d-flex text-decoration-none">
+                  <div class="dropdown-icon">
+                    <i class="far fa-question-circle"></i>
+                  </div>
+                  <p class="sidebar-dropdown-item">Inquiring</p>
+                </a>
+                <a href="" class="d-flex text-decoration-none">
+                  <div class="dropdown-icon">
+                    <i class="far fa-check-circle"></i>
+                  </div>
+                  <p class="sidebar-dropdown-item">Approved</p>
+                </a>
+
+              </div>
+            </div>
+            <!-- collapse -->
+          </div>
+        </div>
+        <div class="side-menu">
+          <div>
+            <div class="side-bar-icon">
+              <i class="fas fa-cog" style="font-size: 27px;"></i>
+            </div>
+
+            <!-- collapse -->
+
+            <a class="text-decoration-none fw-bold text-black" data-bs-toggle="collapse" href="" role="button"
+              aria-expanded="false" aria-controls="collapseExample">
+
+              <div class="d-flex align-items-center justify-content-center">
+                <p class="sidebar-title "> Settings </p>
+                <i class="fa-solid fa-chevron-up" id=""></i>
+              </div>
+
+
+
+            </a>
+
+            <div class="collapse" id="collapseExample">
+              <div class="sidebar-dropdowns mb-3">
+                <a href="" class="d-flex text-decoration-none">
+                  <div class="dropdown-icon sidebar-title-active-bg">
+                    <i class="fas fa-history "></i>
+                  </div>
+                  <p class="sidebar-dropdown-item sidebar-title-active">Pending</p>
+                </a>
+                <a href="" class="d-flex text-decoration-none">
+                  <div class="dropdown-icon">
+                    <i class="far fa-question-circle"></i>
+                  </div>
+                  <p class="sidebar-dropdown-item">Inquiring</p>
+                </a>
+                <a href="" class="d-flex text-decoration-none">
+                  <div class="dropdown-icon">
+                    <i class="far fa-check-circle"></i>
+                  </div>
+                  <p class="sidebar-dropdown-item">Approved</p>
+                </a>
+
+              </div>
+            </div>
+            <!-- collapse -->
+          </div>
+        </div>
+
+        <div class="side-menu" style="margin-top: 55px;margin-bottom: 30px; ">
           <a class="text-decoration-none" href="">
             <img src="img/icons/logout.png" alt="" />
             <p class="fw-bold">Logout</p>
@@ -362,7 +535,7 @@
       <!-- side-bar end -->
       <div class="main" style="border: none !important">
         <!-- Widgets Start -->
-        <div class="d-flex justify-content-between card-body p-3 bg-white rounded">
+        <div class="d-flex justify-content-between card-body p-3 bg-white rounded flex-wrap">
           <div class="card-style card-active d-flex align-items-center">
             <div class=" rounded-3 icon">
               <i class="fas fa-history"></i>
@@ -435,23 +608,23 @@
               <div>
                 <span>Showing videos for</span>
                 <span class="fw-bold text-primary">Today</span>
-                <span class="text-muted">(April 23, 2023)</span>
+                <span class="" style="color: #ADADAD; font-size: 13px;">(April 23, 2023)</span>
               </div>
               <div class="">
                 <img class="me-3" src="img/icons/filter.png" alt="" />
                 <img src="img/icons/calender.png" alt="" />
               </div>
             </div>
-            <div class="mt-4">
-              <table class="table">
+            <div class="mt-4 table-responsive">
+              <table class="table ">
                 <thead>
                   <tr class="table-secondary rounded">
                     <th scope="col">VSID</th>
                     <th scope="col">Acquisitor</th>
-                    <th scope="col">Thumbnail</th>
-                    <th scope="col">Submitter Name</th>
-                    <th scope="col">Title</th>
-                    <th scope="col">Email Address</th>
+                    <th scope="col" class="col-2 text-center">Thumbnail</th>
+                    <th scope="col" class="col-3 text-center">Title</th>
+                    <th scope="col" class="col-2 text-center ">Submitter Name</th>
+                    <th scope="col" class="col-2 text-center">Email Address</th>
                     <th scope="col">Submission Date</th>
                     <th scope="col">View</th>
                   </tr>
@@ -460,16 +633,57 @@
                   <tr>
                     <td scope="row">13194</td>
                     <td>Theodore</td>
-                    <td>
+                    <td class="text-center">
                       <img src="img/thumbnail.jpg" width="80" alt="" />
                     </td>
                     <td>
                       Boy Jumped with the Umbrella and the Wind Almost Sent Him
                       Flying Too Far Away
                     </td>
-                    <td>John Smith</td>
-                    <td>johnsmith@gmail.com</td>
-                    <td>September 26,  2019<br />at 05:45:23 AM UTC</td>
+                    <td class="text-center">John Smith</td>
+                    <td class="text-center">johnsmith@gmail.com</td>
+                    <td>September 26, 2019<br />at 05:45:23 AM UTC</td>
+                    <td>
+                      <a href="">
+                        <img src="img/icons/view.svg" alt="" />
+                      </a>
+                    </td>
+                  </tr>
+                  <tr class="deactive-row">
+                    <td scope="row">13194</td>
+                    <td>Theodore</td>
+                    <td class="text-center">
+                      <img src="img/thumbnail.jpg" width="80" alt="" />
+                    </td>
+                    <td>
+                      Boy Jumped with the Umbrella and the Wind Almost Sent Him
+                      Flying Too Far Away
+                    </td>
+                    <td class="text-center">John Smith</td>
+                    <td class="text-center">johnsmith@gmail.com</td>
+                    <td>September 26, 2019<br />at 05:45:23 AM UTC</td>
+                    <td>
+                      <a href="">
+                        <img src="img/icons/view.svg" alt="" />
+                      </a>
+                    </td>
+                    <td class="deactive-msg">
+                      <p>Submission is currently being viewed by [MANAGER NAME]</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td scope="row">13194</td>
+                    <td>Theodore</td>
+                    <td class="text-center">
+                      <img src="img/thumbnail.jpg" width="80" alt="" />
+                    </td>
+                    <td>
+                      Boy Jumped with the Umbrella and the Wind Almost Sent Him
+                      Flying Too Far Away
+                    </td>
+                    <td class="text-center">John Smith</td>
+                    <td class="text-center">johnsmith@gmail.com</td>
+                    <td>September 26, 2019<br />at 05:45:23 AM UTC</td>
                     <td>
                       <a href="">
                         <img src="img/icons/view.svg" alt="" />
@@ -479,16 +693,16 @@
                   <tr>
                     <td scope="row">13194</td>
                     <td>Theodore</td>
-                    <td>
+                    <td class="text-center">
                       <img src="img/thumbnail.jpg" width="80" alt="" />
                     </td>
                     <td>
                       Boy Jumped with the Umbrella and the Wind Almost Sent Him
                       Flying Too Far Away
                     </td>
-                    <td>John Smith</td>
-                    <td>johnsmith@gmail.com</td>
-                    <td>September 26,  2019<br />at 05:45:23 AM UTC</td>
+                    <td class="text-center">John Smith</td>
+                    <td class="text-center">johnsmith@gmail.com</td>
+                    <td>September 26, 2019<br />at 05:45:23 AM UTC</td>
                     <td>
                       <a href="">
                         <img src="img/icons/view.svg" alt="" />
@@ -498,16 +712,16 @@
                   <tr>
                     <td scope="row">13194</td>
                     <td>Theodore</td>
-                    <td>
+                    <td class="text-center">
                       <img src="img/thumbnail.jpg" width="80" alt="" />
                     </td>
                     <td>
                       Boy Jumped with the Umbrella and the Wind Almost Sent Him
                       Flying Too Far Away
                     </td>
-                    <td>John Smith</td>
-                    <td>johnsmith@gmail.com</td>
-                    <td>September 26,  2019<br />at 05:45:23 AM UTC</td>
+                    <td class="text-center">John Smith</td>
+                    <td class="text-center">johnsmith@gmail.com</td>
+                    <td>September 26, 2019<br />at 05:45:23 AM UTC</td>
                     <td>
                       <a href="">
                         <img src="img/icons/view.svg" alt="" />
@@ -517,16 +731,16 @@
                   <tr>
                     <td scope="row">13194</td>
                     <td>Theodore</td>
-                    <td>
+                    <td class="text-center">
                       <img src="img/thumbnail.jpg" width="80" alt="" />
                     </td>
                     <td>
                       Boy Jumped with the Umbrella and the Wind Almost Sent Him
                       Flying Too Far Away
                     </td>
-                    <td>John Smith</td>
-                    <td>johnsmith@gmail.com</td>
-                    <td>September 26,  2019<br />at 05:45:23 AM UTC</td>
+                    <td class="text-center">John Smith</td>
+                    <td class="text-center">johnsmith@gmail.com</td>
+                    <td>September 26, 2019<br />at 05:45:23 AM UTC</td>
                     <td>
                       <a href="">
                         <img src="img/icons/view.svg" alt="" />
@@ -536,16 +750,16 @@
                   <tr>
                     <td scope="row">13194</td>
                     <td>Theodore</td>
-                    <td>
+                    <td class="text-center">
                       <img src="img/thumbnail.jpg" width="80" alt="" />
                     </td>
                     <td>
                       Boy Jumped with the Umbrella and the Wind Almost Sent Him
                       Flying Too Far Away
                     </td>
-                    <td>John Smith</td>
-                    <td>johnsmith@gmail.com</td>
-                    <td>September 26,  2019<br />at 05:45:23 AM UTC</td>
+                    <td class="text-center">John Smith</td>
+                    <td class="text-center">johnsmith@gmail.com</td>
+                    <td>September 26, 2019<br />at 05:45:23 AM UTC</td>
                     <td>
                       <a href="">
                         <img src="img/icons/view.svg" alt="" />
@@ -555,16 +769,16 @@
                   <tr>
                     <td scope="row">13194</td>
                     <td>Theodore</td>
-                    <td>
+                    <td class="text-center">
                       <img src="img/thumbnail.jpg" width="80" alt="" />
                     </td>
                     <td>
                       Boy Jumped with the Umbrella and the Wind Almost Sent Him
                       Flying Too Far Away
                     </td>
-                    <td>John Smith</td>
-                    <td>johnsmith@gmail.com</td>
-                    <td>September 26,  2019<br />at 05:45:23 AM UTC</td>
+                    <td class="text-center">John Smith</td>
+                    <td class="text-center">johnsmith@gmail.com</td>
+                    <td>September 26, 2019<br />at 05:45:23 AM UTC</td>
                     <td>
                       <a href="">
                         <img src="img/icons/view.svg" alt="" />
@@ -574,54 +788,16 @@
                   <tr>
                     <td scope="row">13194</td>
                     <td>Theodore</td>
-                    <td>
+                    <td class="text-center">
                       <img src="img/thumbnail.jpg" width="80" alt="" />
                     </td>
                     <td>
                       Boy Jumped with the Umbrella and the Wind Almost Sent Him
                       Flying Too Far Away
                     </td>
-                    <td>John Smith</td>
-                    <td>johnsmith@gmail.com</td>
-                    <td>September 26,  2019<br />at 05:45:23 AM UTC</td>
-                    <td>
-                      <a href="">
-                        <img src="img/icons/view.svg" alt="" />
-                      </a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td scope="row">13194</td>
-                    <td>Theodore</td>
-                    <td>
-                      <img src="img/thumbnail.jpg" width="80" alt="" />
-                    </td>
-                    <td>
-                      Boy Jumped with the Umbrella and the Wind Almost Sent Him
-                      Flying Too Far Away
-                    </td>
-                    <td>John Smith</td>
-                    <td>johnsmith@gmail.com</td>
-                    <td>September 26,  2019<br />at 05:45:23 AM UTC</td>
-                    <td>
-                      <a href="">
-                        <img src="img/icons/view.svg" alt="" />
-                      </a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td scope="row">13194</td>
-                    <td>Theodore</td>
-                    <td>
-                      <img src="img/thumbnail.jpg" width="80" alt="" />
-                    </td>
-                    <td>
-                      Boy Jumped with the Umbrella and the Wind Almost Sent Him
-                      Flying Too Far Away
-                    </td>
-                    <td>John Smith</td>
-                    <td>johnsmith@gmail.com</td>
-                    <td>September 26, 2019 at 05:45:23 AM UTC</td>
+                    <td class="text-center">John Smith</td>
+                    <td class="text-center">johnsmith@gmail.com</td>
+                    <td>September 26, 2019 at 05:45:23 AM UTC</td>
                     <td>
                       <a href="">
                         <img src="img/icons/view.svg" alt="" />
