@@ -1,15 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
 
 body {
   font-family: "Inter", sans-serif !important;
 
+}
+nav{
+  padding-bottom: 0 !important;
 }
 
 .card-style {
   background-color: #fafafa;
   color: #525050;
   font-size: 10px;
-  padding: 7px 15px;
+  padding: 18px 15px;
   border-radius: 10px;
 
 }
@@ -148,9 +151,10 @@ body {
 
 .card-style:hover {
   background-color: white;
-  border: 1px solid blue !important;
+  /* border: 1px solid blue !important; */
   /* transition: 0.5s; */
-  padding: 6px 14px;
+  padding: 17px 14px;
+  box-shadow: rgb(0 20 252 / 51%) 0px 0px 6px 0
 
 }
 
@@ -159,6 +163,9 @@ body {
 .card-style .icon {
   background-color: #f1f1f1;
   padding: 10px;
+}
+.widget-icon-active{
+  background-color: transparent !important;
 }
 
 .icon .fas {
@@ -171,20 +178,22 @@ body {
 
 .widget-title {
   color: #525050;
-  font-size: 12px;
+  font-size: 13px;
   font-family: Inter;
   font-style: normal;
   font-weight: 600;
   line-height: 25px;
   text-transform: capitalize;
+  display: block;
+  margin-bottom: -6px;
 }
 
 .widget-count {
   color: #525050;
-  font-size: 10px;
+  font-size: 13px;
   font-family: Inter;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 25px;
   text-transform: capitalize;
 }
@@ -196,9 +205,10 @@ body {
 
 .card-active {
   background-color: white;
-  border: 1px solid blue !important;
+  /* border: 1px solid blue !important; */
   /* transition: 0.5s; */
-  padding: 6px 14px;
+  padding: 17px 14px;
+  box-shadow: rgb(0 20 252 / 51%) 0px 0px 6px 0
 
 
 
@@ -357,7 +367,36 @@ p {
   font-weight: 600;
   line-height: normal;
 }
+.filter-icon{
+  border:1px solid #EBEBEB;
+  border-radius: 5px;
+  padding: 7px;
+}
+.filter-icon .far{
+  font-size: 16px;
+}
+.thead th{
+  padding: 20px 10px;
+}
+.thead th:last-child{
+  padding-right: 20px;
+  border-top-right-radius: 20px;
+}
+.thead th:first-child{
 
+  border-top-left-radius: 20px;
+}
+.paginate-active{
+  background-color: #111AE9;
+  color: #fff !important;
+  border: none;
+}
+.paginate-active:hover{
+  background-color:transparent#111AE9;
+  color: #525050 !important;
+
+
+}
 @media screen and (max-width: 768px) {
 
   .form-grp {
